@@ -12,7 +12,7 @@ class App < Sinatra::Base
   
   end 
   
-  get '/index.html' do
+  get '/index.erb' do
     erb :index
   
   end 
