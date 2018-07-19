@@ -38,7 +38,7 @@ class App < Sinatra::Base
   end 
   
   get '/learn_lover' do
-    erb :learn_lover
+    erb :learn_loverss
   
   end 
   
