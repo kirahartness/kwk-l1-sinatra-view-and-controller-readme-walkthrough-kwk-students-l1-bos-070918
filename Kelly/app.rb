@@ -32,8 +32,13 @@ class App < Sinatra::Base
   
   end 
   
-  get '/' do
-    erb :homepage
+  get '/live.erb' do
+    erb :live
+  
+  end 
+  
+  get '/learn_lover' do
+    erb :learn_lover
   
   end 
   
