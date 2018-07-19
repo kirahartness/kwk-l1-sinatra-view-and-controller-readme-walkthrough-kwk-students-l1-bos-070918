@@ -8,7 +8,8 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    erb :index
+    erb :homepage
+  
   end 
   
   post '/results' do
