@@ -12,6 +12,21 @@ class App < Sinatra::Base
   
   end 
   
+  get '/index.html' do
+    erb :index
+  
+  end 
+  
+  get '/shopping.erb' do
+    erb :shopping
+  
+  end 
+  
+  get '/foodie' do
+    erb :homepage
+  
+  end 
+  
   post '/results' do
    answers = params.values
    @total = 0
