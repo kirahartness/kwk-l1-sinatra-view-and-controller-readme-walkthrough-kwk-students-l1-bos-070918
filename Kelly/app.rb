@@ -17,12 +17,22 @@ class App < Sinatra::Base
   
   end 
   
-  get '/shopping.erb' do
-    erb :shopping
+  get '/shopping_lover.erb' do
+    erb :shopping_lover
   
   end 
   
-  get '/foodie' do
+  get '/foodie.erb' do
+    erb :foodie
+  
+  end 
+  
+  get '/outdoor_lover.erb' do
+    erb :outdoor_lover
+  
+  end 
+  
+  get '/' do
     erb :homepage
   
   end 
